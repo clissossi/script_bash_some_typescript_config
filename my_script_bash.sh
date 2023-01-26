@@ -9,6 +9,8 @@ npm i @types/aws-lambda\
     webpack-cli\
     webpack-node-externals
 \
-mkdir services types helpers
+mkdir services && touch services/firebase.ts
+mkdir types && touch types/expectedLambdaPayload.ts
+mkdir helpers
 touch tsconfig.json webpack.config.js
 mv lambda.js lambda_src.ts
